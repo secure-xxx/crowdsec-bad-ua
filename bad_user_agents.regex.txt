@@ -1,13 +1,7 @@
-# -------------------------
-# empty / malformed UA
-# -------------------------
 ^$
 ^\s*$
 ^-$
 
-# -------------------------
-# HTTP clients / libs
-# -------------------------
 (?i)curl
 (?i)wget
 (?i)httpclient
@@ -30,9 +24,6 @@
 (?i)dio
 (?i)flutter
 
-# -------------------------
-# automation frameworks
-# -------------------------
 (?i)scrapy
 (?i)selenium
 (?i)playwright
@@ -40,9 +31,6 @@
 (?i)phantomjs
 (?i)headless
 
-# -------------------------
-# scanners / security tools
-# -------------------------
 (?i)nmap
 (?i)masscan
 (?i)zgrab
@@ -50,9 +38,6 @@
 (?i)sqlmap
 (?i)metasploit
 
-# -------------------------
-# SEO / scraping bots
-# -------------------------
 (?i)semrush
 (?i)ahrefs
 (?i)mj12bot
@@ -64,9 +49,6 @@
 (?i)screaming frog
 (?i)rogerbot
 
-# -------------------------
-# AI / LLM crawlers & services
-# -------------------------
 (?i)gptbot
 (?i)chatgpt
 (?i)openai
@@ -83,9 +65,6 @@
 (?i)you.com
 (?i)you-bot
 
-# -------------------------
-# IDE / AI coding tools (important for API scraping)
-# -------------------------
 (?i)cursor
 (?i)cursor.sh
 (?i)windsurf
@@ -96,16 +75,10 @@
 (?i)sourcegraph
 (?i)cody
 
-# -------------------------
-# API testing tools
-# -------------------------
 (?i)postman
 (?i)insomnia
 (?i)hoppscotch
 
-# -------------------------
-# misc automation / bots
-# -------------------------
 (?i)bot
 (?i)crawler
 (?i)spider
